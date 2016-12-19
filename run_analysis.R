@@ -95,8 +95,8 @@ dfTidy <- dfTotal %>%
 # print(object.size(dfTidy), units = "MB")
 
 # write the data to csv files
-write.table(dfTotal, "mergeddata.csv", sep = "\t", row.names = F)
-write.table(dfTidy, "tidydata.csv", sep = "\t", row.names = F)
+write.table(dfTotal, "mergeddata.txt", sep = "\t", row.names = F)
+write.table(dfTidy, "tidydata.txt", sep = "\t", row.names = F)
 
-# x <- read.csv("tidydata.csv", header = T, sep = "\t")
-# y <- read.csv("mergeddata.csv", header = T, sep = "\t")
+# x <- read.csv("tidydata.txt", header = T, sep = "\t")
+# y <- read.csv("mergeddata.txt", header = T, sep = "\t")
